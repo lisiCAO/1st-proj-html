@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  
+ height: 100%;
+}
+
+.header {
+	background-image: url(header.png);
+	background-size: cover;
+	height: 200px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+  grid-area: header;
+
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+	list-style-type: none;
+	position: fixed;
+	top: 200px;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+  overflow: hidden;
+ background-color: rgba(236,236,236,1.00);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block;
+  
+	background: #f44336;
+  text-align: center;
+	font-weight: bold;
+	  padding: 14px 16px;
+	border: none;
+	margin: 4px 2px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	text-decoration: none;
+ 
+	height: 45px;
+	 background-color: rgba(236,236,236,1.00); 
+ 	border-top-left-radius: 40%;
+	 border-top-right-radius: 40%;
+  color: black; 
+
+}
+
+
+
+.topnav a:hover {
+	background: #f44336;
+	border-top-left-radius: 40%;
+	 border-top-right-radius: 40%;
+  color: white;
+}
+
+
+
+/* Style the content */
+.content {
+	margin-top: 245px;
+	 min-height: 100%;
+  
+  background-color: rgba(236,236,236,1.00);
+ 
+ 
+}
+.content-inside{
+	padding:20px;
+	padding-bottom: 50px;
+		
+}
+.container{
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+li{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	
+}
+img.duck{
+	
+	padding: 20px;
+	padding-left: 200px; 
+	max-width: 50%;
+	height: auto;
+}
+.image {
+	flex-basis: 40%;
+}
+
+/* Style the footer */
+.footer {
+ 
+	
+	background-image: url(header.png);
+	background-size: cover;
+	background-position: bottom;
+
+ 
+	height: 150px;
+	margin-top: -50px;
+
+  
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: red;
+	magrin: 0 0 10px 0;
+	font-style: italic;
+	font-size: 48px;
+	
+}
+h3 {
+	color: red;
+	magrin: 0 0 20px 0;
+	font-style: italic;
+	font-size: 24px;
+	
+}
+.ingredients {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0 0 50px;
+	
+}
+.description{
+	font-size: 16px;
+	line-height: 200%;
+	margin: 20px 200px 20px 200px;
+	padding: 10px;
+	
+}
+footer {
+	line-height: inherit;
+	padding: 0 20px;
+}
+
+.footnote {
+	color: white;
+	text-align: center;
+	
+}

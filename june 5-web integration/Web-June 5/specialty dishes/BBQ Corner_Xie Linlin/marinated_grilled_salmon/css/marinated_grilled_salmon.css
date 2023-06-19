@@ -1,0 +1,117 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  list-style:none;
+}
+
+body{
+  background-color:#000;
+  color:#fff;
+}
+
+.logo{
+  cursor:pointer;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  margin:50px 100px;
+  width:700px;
+}
+
+.nav_links{
+  display:flex;
+  padding:0px 25px;
+  text-align: center;
+  position:absolute;
+}
+
+.nav_links li a{
+  color:#fff;
+  font-family:Segoe Print;
+  font-weight:bold;
+  font-size:18px;
+  transition:all 0.3s;
+}
+
+.nav_links li a:hover{
+  color:#EB7907;
+}
+
+.menu_down{
+  width:250px;
+  padding:0px 10px;
+  line-height:25px; 
+}
+
+.d{
+  background-color:rgb(255,255,255,0.2);
+  display:none;
+}
+
+.menu_down li a{
+  font-size:12px;
+  font-weight: lighter;
+}
+
+#menu:hover .d{
+  display:block;
+}
+
+.dish{
+  height: 240px;
+  display: flex;
+  align-items: top;
+  padding:0px 100px;
+}
+
+.dish_img img{
+  border:5px solid;
+  border-radius:50%;
+}
+
+.dish ul li{
+  list-style-type: none;
+}
+
+#salmon{
+  padding:15px 150px;
+  font-family:Segoe Print;
+  font-size:28px;
+  font-weight:bold;
+}
+
+#description{
+  padding:15px 35px;
+  font-family:Segoe Script;
+  font-size:16px;
+}
+
+.ingre_pri{
+  display:flex;
+  justify-content:space-between;
+  padding:5px 40px;
+  font-family:Segoe Script;
+  font-size:16px;
+} 
+
+#price{
+  font-weight:bold;
+}
+
+.bottom_img{
+  height:180px;
+  background-image:url("../image/marinated_grilled_salmon_background.jpg");
+  background-position:center;
+  background-repeat:repeat;
+  background-size:40%; 
+}
+
+footer{
+  text-align:center;
+  padding:20px 80px;
+  color:#fff;
+}

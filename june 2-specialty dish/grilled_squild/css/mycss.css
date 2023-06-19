@@ -1,0 +1,129 @@
+body{
+  display:flex;
+}
+header{
+  background-color:#7895A1;
+}
+header nav, header img {
+  width: 200px;
+  padding:20px;
+  min-width:190px;
+}
+header ul{
+  list-style-type:none;
+  font-size:32px;
+}
+.dropdown{
+  position: relative;
+  display:inline-block;
+}
+.dropdown-content{
+  display:none;
+  position: absolute;
+  background-color:lightblue;
+  padding: 0 20px;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  font-size:18px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+header nav ul li{
+  margin: 16px 0;
+}
+a:hover{
+  color:antiquewhite;
+}
+a{
+  text-decoration:none;
+}
+header nav a{
+  font-weight: bold;
+  color:purple;
+  transition: color 0.4s ease;
+}
+
+main{
+  background-color:#660000;
+  text-align: center;
+}
+
+.title{
+  color: antiquewhite;
+  text-align:center;
+  font-family:"Roboto Slab", serif;
+  font-size:56px;
+}
+.section{
+  margin:120px; 
+  background-color:black;
+  border-radius:15px;
+  padding:20px;
+}
+.date{
+  color:lightblue;
+  font-size:14pt;
+  text-align:center;
+  font-family:roboto;
+  font-weight:bold;
+}
+main nav{
+  box-shadow:0 1px 2px #fff;
+  padding:1px 0;
+}
+main nav a{
+  font-weight:bold;
+  font-size:24px;
+  margin:0 24px;
+  padding:24px;
+  transition:color 0.4s ease;
+}
+figure, .ingredient-list, .method-list, .price, .footer{
+  color:lightgrey;
+  font-family:roboto;
+  line-height:2em;
+  font-size:16pt;
+  font-weight:700;
+}
+.figure{
+padding: 0 65px;
+color: lightblue;
+}
+.ingredient-list{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.method-list{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 700px;
+  list-style-type:none;
+}
+.method-list li{
+  margin-bottom:32px;
+}
+.price{
+  font-weight:bold;
+  font-size:30pt;
+  font-weight:700;
+}
+main a{
+  color:#ffff00;
+}
+.footer{
+  font-size:14px;
+}
+header nav{
+  position:fixed;
+  left:0;
+  top:100px;
+}
+figcaption{
+  text-align:left;
+  margin: auto;
+  padding-left: 30px;
+}
